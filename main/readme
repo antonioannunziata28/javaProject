@@ -1,0 +1,39 @@
+
+Current Account Project
+
+Current accountant
+-first name
+-date of birth
+
+
+
+-when opening the account, you receive a bonus based on the person's date of birth:
+age between 18 and 30 ->100
+age between 31 and 50 ->150
+age over 50 ->200
+
+Bank account
+-current account holder
+-balance
+
+withdrawal()
+payment()
+calculateBonus()
+
+-we simulate deposit or withdrawal operations
+
+scanner:
+-Insert your name
+-Enter your date of birth
+....
+- The account is open and your balance is x
+-do you want to make an operation on the account?
+-n -no -> your balance is x
+-s yes -> tell me the type of operation P-withdraw V-deposit
+
+-> you are asked to indicate the withdrawal or deposit amount
+->the new balance is displayed
+- do you want to do an operation?
+....
+current balance after each transaction
+final balance
